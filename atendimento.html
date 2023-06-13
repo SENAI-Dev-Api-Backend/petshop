@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="costumer-service.css">
+    <title>Pet Shop</title>
+</head>
+
+<body>
+    <h1>Meu Pet Shop ERP</h1>
+    <form id="create-costumer-form">
+        <input class="create-costumer-input" type="text" name="service" placeholder="Serviço" />
+        <input class="create-costumer-input" type="text" name="animal" placeholder="Animal" />
+        <input class="create-costumer-input" type="text" name="date" placeholder="Data Agendada" />
+        <button id="create-costumer-button" id="create-costumer-button" type="submit">Criar atendimento</button>
+    </form>
+    <table id="costumer-list-container">
+        <tr>
+            <th>Serviço</th>
+            <th>Animal</th>
+            <th>Data Agendada</th>
+        </tr>
+    </table>
+    <script src="costumer-service.js"></script>
+</body>
+
+</html>

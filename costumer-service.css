@@ -1,0 +1,52 @@
+#create-costumer-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.create-costumer-input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgb(209, 209, 209);
+}
+
+.create-costumer-input:focus {
+    outline: none;
+    box-shadow: 0 2px 10px rgb(119, 117, 117);
+}
+
+#create-costumer-button {
+    padding: 10px 20px;
+    background-color: rgb(87, 201, 87);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#create-costumer-button:hover {
+    background-color: rgb(61, 172, 61);
+}
+
+#costumer-list-container {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#costumer-list-container tr,
+#costumer-list-container th {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#costumer-list-container th {
+    background-color: #969595;
+}
+
+#costumer-list-container tr:hover {
+    background-color: #f5f5f5;
+}
